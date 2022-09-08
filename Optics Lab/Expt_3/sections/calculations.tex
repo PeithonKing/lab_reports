@@ -1,25 +1,34 @@
 \section{Calculations}
 
-	From the observation tables we can see that the grating number is $$15000/in = \frac{15000}{0.0254}/m = 590551/m$$.
+	The velocity of the sound waves in the liquid and the bulk modulus of the liquid are calculated from the 1st and 2nd order diffraction fringes formed due to the sound waves in the liquid.
+
+	\subsection{Velocity of Wave:}
+	The Mean velocity of waves through the liquid (turpentine oil) is calculated from the \hyperref[eqn:1]{Equation 1}:
 	
-	\vspace{-1cm}
-	\subsection{Wavelength for 1st order fringe:}
-		Average angle $(\theta_1) = (\frac{20.291+20.292+20.315+20.319}{4})^\circ = 20.304^\circ$
+	For 1st order fringe:
+	$$
+	V_u = \frac{n\lambda\nu}{\sin\theta_n}
+	    = \frac{1\times 589\;nm \times 3.99\;MHz}{\sin (0.05^{\circ})}
+		= 2693.03\;m/s
+	$$
 	
-		\vspace{3mm}
-		So, $\lambda_{1} = \frac{\sin\theta_1}{mN} = \frac{\sin20.304}{1 \times 590551} = 5.876 \times 10^-7 = 587.6 \; nm$
+	Similarly, For 2nd order fringe:
+	$$V_u\;(for\;\theta_n=0.2050) = 1313.67\;m/s,$$
+	\vspace{-5.25mm}
+	$$V_u\;(for\;\theta_n=0.2125) = 1267.31\;m/s$$
+	\vspace{-5.25mm}
+	\hspace{1.7cm}and,
+	$$V_u\;(for\;\theta_n=0.2375) = 1133.91\;m/s.$$
 
-	\subsection{Wavelength for 2nd order fringe:}
-		Average angle $(\theta_1) = (\frac{44.281+44.276+44.318+44.305}{4})^\circ = 44.295^\circ$
-	
-		\vspace{3mm}
-		So, $\lambda_{1} = \frac{\sin\theta_1}{mN} = \frac{\sin44.295}{2 \times 590551} = 5.912 \times 10^-7 = 591.2 \; nm$
 
-	\subsection{Difference in the two wavelengths}
-		$$\Delta\lambda = \frac{591.2-587.6}{2} \; nm = 3.6 \; nm$$
+	\subsection{Bulk Modulus of Elasticity (and Compressibility):}
+	The literature value for the Bulk modulus of elasticity for turpentine oil is $1.28\times 10^9\sfrac{N}{m}$ obtained from ~\cite{bulkmodulus}. The value is calculated from the \hyperref[eqn:2]{Equation 2}:
 
-	\subsection{Angular Dispersive Power of the grating:}
-		$\dfrac{d \theta}{d \lambda} \bigg|_{m=1} = \frac{1 \times 15000}{\cos20.304} = 15.999 \times 10^3 rad / in$
+	For 1st order fringe:
+	$$E = V_u^2\rho = (2693.03)^2\times865 =6.27\times 10^9\sfrac{N}{m}$$
+	$$K = \frac{1}{6.27\times 10^9} = 0.16\;\sfrac{nm}{N}$$
 
-		\vspace{5mm}
-		$\dfrac{d \theta}{d \lambda} \bigg|_{m=2} = \frac{1 \times 15000}{\cos44.295} = 20.957 \times 10^3 rad / in$
+	For 2nd order fringe:
+	$$E = V_u^2\rho = (1238.3)^2\times865 = 1.32\times 10^9\sfrac{N}{m}$$
+	$$K = \frac{1}{1.32\times 10^9} = 0.75\;\sfrac{nm}{N}$$
+
