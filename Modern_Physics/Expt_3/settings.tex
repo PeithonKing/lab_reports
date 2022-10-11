@@ -1,0 +1,38 @@
+% importing packages
+\usepackage[left=1.6cm, right= 1.6cm, top=1.0cm, bottom=1.36cm]{geometry}  % page margins
+\usepackage{multicol}  % multiple columns
+\usepackage[utf8]{inputenc}  % input encoding
+\usepackage{gensymb}  % math symbols
+\usepackage{indentfirst}  % indent first line of paragraph
+\usepackage{graphicx}  % adding pictures
+\usepackage{float}  % floating figures
+\usepackage{fancyvrb}  % verbatim
+\usepackage{mathtools}  % math
+\usepackage{xfrac}   % fractions
+% \usepackage[italicdiff]{physics}  % physics
+\usepackage[center]{caption}  % centering captions
+\usepackage{hyperref}  		% for hyperlinks
+\usepackage{amsmath}  		% for math symbols
+\usepackage{physics} 		% for physics symbols
+\usepackage{multirow} 		% for tables
+\usepackage{amssymb} 		% for math symbols
+\usepackage{longtable}
+
+
+% defining new commands
+\newcommand{\angstrom}{\textup{\AA}}  % angstrom
+\DeclareMathOperator{\taninv}{tan^{-1}}
+\DeclareUnicodeCharacter{2212}{-}
+\setlength{\columnsep}{0.5cm}  % column separation
+
+% defining graphics path
+\graphicspath{ {./images/} }
+
+% the next 5 lines help in removing the ugly
+% boxes around links and making them look better
+\hypersetup{
+	colorlinks = true,
+	urlcolor = black,
+	linkcolor = black,
+	citecolor = black,
+}
