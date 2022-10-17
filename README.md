@@ -5,8 +5,22 @@ This repository contains the lab reports for the 5th semester of my Integrated M
  - Modern Physics Lab
  - Computational Physics Lab
 
-We had to write Lab Reports for the 1st two. Those reports are written in LaTeX. Here are they:
+We had to write Lab Reports for the 1st two and coding assignments for the last. The reports for the first two are written in LaTeX and the codes for the last are writen in Python. Here are all of them:
 
 ## Optics Lab
 
-1. [Experiment 1: ]()
+1. [**Experiment 2:** Splitting of sodium D-lines using diffraction grating](./Optics_Lab/Expt_2/main.pdf)
+2. [**Experiment 3:** Diffraction of light due to ultrasonic wave propagation in liquids](./Optics_Lab/Expt_3/main.pdf)
+3. [**Experiment 4:** Study of Polarization of Light](./Optics_Lab/Expt_4/main.pdf)
+4. 
+
+
+## Modern Physics Lab
+
+1. [**Experiment 2:** Zeemann Effect](./Optics_Lab/Expt_2/main.pdf)
+2. [**Experiment 3:** Emission spectra of Hydrogen and determination of Rydberg constant](./Optics_Lab/Expt_3/main.pdf)
+3. [**Experiment 4:** Emission spectra of metals and Absorption spectrum of Iodine vapour using constant deviation spectrometer](./Optics_Lab/Expt_4/main.pdf)
+4. [**Experiment 7:** Study of Electron Spin Resonance](./Optics_Lab/Expt_7/main.pdf)
+
+
+**Note:** I have a separate GitHub repository to keep the codes from the Computational Physics Lab: [PeithonKing/comp_phys_P346](https://github.com/PeithonKing/comp_phys_P346).
