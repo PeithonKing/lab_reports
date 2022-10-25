@@ -1,0 +1,27 @@
+\documentclass[10pt]{article}
+\input{settings.tex}
+
+\title{\textbf{Frank Hertz Experiment}}
+\author{Aritra Mukhopadhyay\\(Roll. No.: 2011030)}
+\date{October 24, 2022}
+
+\begin{document}
+    \maketitle
+    
+    \begin{multicols*}{2}
+        \input{sections/aim&aparatus.tex}
+        \input{sections/theory.tex}
+        \input{sections/observations.tex}
+        \input{sections/calculation.tex}
+        \input{sections/error.tex}
+        \input{sections/conclusion.tex}
+
+        \bibliographystyle{apalike}
+        \bibliography{ref.bib}
+        \nocite{*}
+    \end{multicols*}
+
+    \newpage
+	\includegraphics[width=0.95\textwidth]{data.jpg}
+
+\end{document}
