@@ -14,7 +14,8 @@ We had to write Lab Reports for the 1st two and coding assignments for the last.
 2. [**Experiment 3:** Diffraction of light due to ultrasonic wave propagation in liquids](./Optics_Lab/Expt_3/main.pdf)
 3. [**Experiment 4:** Study of Polarization of Light](./Optics_Lab/Expt_4/main.pdf)
 4. [**Experiment 5:** Michelson's Interferometer](./Optics_Lab/Expt_5/main.pdf)
-5. 
+5. [**Experiment 6:** Fabry Pérot Interferometer](./Optics_Lab/Expt_6/main.pdf)
+6. 
 
 ## Modern Physics Lab
 

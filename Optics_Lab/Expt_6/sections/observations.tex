@@ -1,0 +1,67 @@
+\section{Observation, Calculations and Error Analysis}
+
+    \noindent Least Count of Main Scale = $0.5 mm$\\
+    Number of divisions on circular scale = $50$\\
+    Least Count of fine micrometer = $0.01 mm$\\
+
+    \subsection{Determination of $\lambda$ for diode laser:}
+
+        Initial position of the micrometer screw = $17.00 mm$
+
+        \noindent here $D = (msd + 0.01\times vsd)$ mm ($\because$ least count = 0.01mm)
+
+        \input{tables/table1.tex}
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.45\textwidth]{images/graph_1.png}
+			\caption{$\Delta D$ vs $m$ graph for Laser Diode}
+			\label{graph:1}
+		\end{figure}
+
+        From the graph, we can see that the slope of the graph is $(320\pm7)nm$, and the intercept is negligible under the error purview.
+
+        Thus, $\lambda = 2\times slope = 2\times320 nm$ [from \hyperref[eqn:1]{Eqn 1}]
+        
+        \textbf{Error Estimation:} 
+
+        From Slope we get: $\Delta\lambda = \pm2\times7nm = \pm7nm$
+
+        Calculating Standard Deviation of $\lambda$ calculated with each data point of \hyperref[tab:1]{Table 1} we get: $\Delta\lambda = \pm54.24nm$
+
+        \begin{center}
+            \fbox{$\therefore\lambda = 640\pm54.24nm$}
+        \end{center}
+
+        (\textbf{Note:} The uncertainty due to the least count of the micrometer screw gauge is taken care of in the calculation of the error in slope of the \hyperref[graph:1]{Graph 1}. Although we did not plot the error bars, we have taken that into account while calculating the error in the slope.)
+
+    \subsection{Determination of separation between the etalon plates}
+
+        $D = 34.5cm$
+
+        \input{tables/table2.tex}
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.45\textwidth]{images/graph_2.png}
+			\caption{$\cos\theta_m$ vs Order of fringe}
+			\label{graph:2}
+		\end{figure}
+
+        from \hyperref[graph:2]{Graph 2}, we can see that the slope of the graph is $m = 6743.22\pm174.5$ (unitless).
+
+        So, from \hyperref[eqn:2]{Eqn 2}, we get:
+        
+        $$d = \frac{s\lambda}{2} = \frac{6743.22\times640}{2}nm = 2.16mm$$
+
+        \textbf{Error Estimation:} 
+
+        Differentiating the above equation wrt d, we get:
+
+        $$\frac{\Delta d}{d} = \frac{\Delta s}{s} + \frac{\Delta\lambda}{\lambda}$$
+
+        $$\therefore \Delta d = 0.11\times2.16 mm = 0.24mm$$
+
+        \begin{center}
+            \fbox{$\therefore d = 2.16\pm0.24 mm$}
+        \end{center}
