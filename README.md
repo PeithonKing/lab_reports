@@ -15,7 +15,7 @@ We had to write Lab Reports for the 1st two and coding assignments for the last.
 3. [**Experiment 4:** Study of Polarization of Light](./Optics_Lab/Expt_4/main.pdf)
 4. [**Experiment 5:** Michelson's Interferometer](./Optics_Lab/Expt_5/main.pdf)
 5. [**Experiment 6:** Fabry Pérot Interferometer](./Optics_Lab/Expt_6/main.pdf)
-6. 
+6. [**Experiment 1:** Diffraction of light](./Optics_Lab/Expt_1/main.pdf)
 
 ## Modern Physics Lab
 
@@ -24,6 +24,7 @@ We had to write Lab Reports for the 1st two and coding assignments for the last.
 3. [**Experiment 4:** Emission spectra of metals and Absorption spectrum of Iodine vapour using constant deviation spectrometer](./Modern_Physics/Expt_4/main.pdf)
 4. [**Experiment 7:** Study of Electron Spin Resonance](./Modern_Physics/Expt_7/main.pdf)
 5. [**Experiment 6:** Study of Franck Hertz experiment](./Modern_Physics/Expt_6/main.pdf)
-6. 
+6. [**Esperiment 5:** Study of Lock in amplifier](./Modern_Physics/Expt_5/main.pdf)
+7. 
 
 **Note:** I have a separate GitHub repository to keep the codes from the Computational Physics Lab: [PeithonKing/comp_phys_P346](https://github.com/PeithonKing/comp_phys_P346).

@@ -1,0 +1,120 @@
+\section{Observation \& Calculation}
+    \subsection{Determination of wavelength $\lambda$ of the laser light using diffraction pattern}
+
+        Slit width b = 0.2mm and D = 4m
+        \input{tables/table1.tex}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{images/graph_1.png}
+            \caption{$x_m$ vs $m$ graph for Single Slit Diffraction}
+            \label{graph:1}
+        \end{figure}
+
+        \subsubsection{Calculation \& error analysis}
+            From \hyperref[graph:1]{Graph 1} we see that the slope:
+            $$m\;(slope) = 10.946 mm$$
+            
+            
+            From \hyperref[eqn:1]{Equation 1}, we know:
+            
+            $$m = \frac{2D\lambda}{b}$$
+            $$\therefore \lambda = \frac{mb}{2D} = 656.76nm$$
+            $$\delta\lambda = \lambda\sqrt{\left(\frac{\delta D}{D}\right)^2 + \left(\frac{\delta b}{b}\right)^2 + \left(\frac{\delta m}{m}\right)^2}$$
+            $$\delta\lambda = 656.76\times\sqrt{400^{-2}+48^{-2}+219^{-2}}$$
+            $$\delta\lambda = 14.1nm$$
+
+            \begin{center}
+                \fbox{$\lambda = 656.76\pm14.1\;nm$}
+                \label{ans:1}
+            \end{center}
+
+    \subsection{Finding thickness of thin wire}
+        Thickness b = 0.2mm (using travelling microscope). Distance between the wire and the screen D = 4m.
+
+
+
+        \input{tables/table2.tex}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{images/graph_2.png}
+            \caption{$m$ vs $x_m$ graph for Diffraction of thin wire}
+            \label{graph:2}
+        \end{figure}
+
+        \subsubsection{Calculation \& error analysis}
+            From \hyperref[graph:2]{Graph 2} we see that the slope:
+            $$m\;(slope) = 0.108 mm^{-1} = 108 m^{-1}$$
+
+            From \hyperref[eqn:2]{Equation 2}, we know:
+            $$s = \frac{b}{D\lambda}$$
+
+            For $\lambda = 656.76 nm$ (found in the \hyperref[ans:1]{last part}), we get:
+            $$b = D\lambda m = 0.283mm$$
+            $$\delta b = b\sqrt{\left(\frac{\delta D}{D}\right)^2 + \left(\frac{\delta \lambda}{\lambda}\right)^2 + \left(\frac{\delta m}{m}\right)^2}$$
+            $$\delta b = 0.0065mm\;(2.3\%)$$
+
+            \begin{center}
+                \fbox{$\lambda = 0.283\pm0065\;mm$}
+                \label{ans:2}
+            \end{center}
+
+            Error wrt to the value obtained from the travelling microscope is 29\%.
+
+    \subsection{Verifying Babinet's Principle}
+        We tried to coincide the fringes with the single slit with that obtained from the wire. Then we measured the slit width with the help of travelling microscope. We got the slit width as 0.22mm. 
+        % We also calculated the slit width using the fringe pattern:
+        % \input{tables/table3.tex}
+
+        We find that the single slit width is approximately equal to the wire thickness (0.2mm) for an approximate pattern. This verifies Babinet's principle. (Error = 10.7\%)
+    
+    \subsection{Determination of the two slit widths in double slit experiment using diffraction pattern}
+
+        From Travelling microscope:
+        
+        Width of first slit $(s_1) = (8.85+0.020)-(8.80+0.04) = 8.870-8.840 = 0.030cm$
+        
+        Width of Second slit $(s_2) = (8.90+0.008)-(8.85+0.035) = 8.908-8.885 = 0.023cm$
+
+        $$\therefore b = \frac{0.23+0.3}{2} = 0.265mm$$
+        $$\therefore d = 8.885-8.870 cm = 0.15mm$$
+        $$\therefore c = 8.885-8.870 cm = 0.28mm$$
+
+        \input{tables/table4.tex}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.4\textwidth]{images/graph_3.png}
+            \caption{$m$ vs $x_m$ graph for double slit diffraction}
+            \label{graph:3}
+        \end{figure}
+
+        From \hyperref[graph:3]{Graph 3} we see that the slope (m) is $0.074 mm^{-1} = 74 m^{-1}$.
+
+        Therefore, from \hyperref[eqn:3]{Equation 3}, we get:
+
+        $$m = \frac{b}{D\lambda}$$
+        $$b = mD\lambda = 0.19mm$$
+
+
+        \input{tables/table5.tex}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{images/graph_4.png}
+            \caption{$m$ vs $x_p$ graph for double slit diffraction}
+            \label{graph:4}
+        \end{figure}
+
+        From \hyperref[graph:4]{Graph 4} we see that the slope (m) is $0.239 mm^{-1} = 239 m^{-1}$.
+
+        Therefore, from \hyperref[eqn:4]{Equation 4}, we get:
+
+        $$m = \frac{d}{D\lambda}$$
+        $$d = mD\lambda = 0.63mm$$
+
+        from graph and table, $c = d-b = 0.44mm$.
+
+        \vspace{2mm}
+        The Error in the value of c when compared with the observed value with the help of travelling microscope (0.28mm) is 36.4\%.

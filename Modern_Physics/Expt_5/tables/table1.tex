@@ -1,0 +1,25 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage{graphicx}
+\begin{table}[H]
+	\centering
+	\resizebox{\columnwidth}{!}{%
+	\begin{tabular}{|ccc|cccccc|}
+	\hline
+	\multicolumn{1}{|c|}{\multirow{2}{*}{Sl.   No.}} & \multicolumn{1}{c|}{\multirow{2}{*}{rms $V_{app}$ (V)}} & \multirow{2}{*}{$V_{sig}$ $(\mu V)$} & \multicolumn{6}{c|}{$V_{DC}$ (mV)} \\ \cline{4-9} 
+	\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} &  & \multicolumn{1}{c|}{f = 500Hz} & \multicolumn{1}{c|}{f = 995Hz} & \multicolumn{1}{c|}{f = 1500Hz} & \multicolumn{1}{c|}{f = 2000Hz} & \multicolumn{1}{c|}{f = 2500Hz} & f = 3000Hz \\ \hline
+	\multicolumn{1}{|c|}{1} & \multicolumn{1}{c|}{4} & 177.6 & \multicolumn{1}{c|}{235} & \multicolumn{1}{c|}{240} & \multicolumn{1}{c|}{246} & \multicolumn{1}{c|}{250} & \multicolumn{1}{c|}{255} & 260 \\ \hline
+	\multicolumn{1}{|c|}{2} & \multicolumn{1}{c|}{3.5} & 155.4 & \multicolumn{1}{c|}{201} & \multicolumn{1}{c|}{203} & \multicolumn{1}{c|}{210} & \multicolumn{1}{c|}{214} & \multicolumn{1}{c|}{218} & 223 \\ \hline
+	\multicolumn{1}{|c|}{3} & \multicolumn{1}{c|}{3} & 133.2 & \multicolumn{1}{c|}{166} & \multicolumn{1}{c|}{168} & \multicolumn{1}{c|}{171} & \multicolumn{1}{c|}{173} & \multicolumn{1}{c|}{172} & 181 \\ \hline
+	\multicolumn{1}{|c|}{4} & \multicolumn{1}{c|}{2.5} & 111 & \multicolumn{1}{c|}{135} & \multicolumn{1}{c|}{138} & \multicolumn{1}{c|}{136} & \multicolumn{1}{c|}{136} & \multicolumn{1}{c|}{141} & 146 \\ \hline
+	\multicolumn{1}{|c|}{5} & \multicolumn{1}{c|}{2*} & 88.8 & \multicolumn{1}{c|}{132} & \multicolumn{1}{c|}{136} & \multicolumn{1}{c|}{133} & \multicolumn{1}{c|}{134} & \multicolumn{1}{c|}{137} & 143 \\ \hline
+	\multicolumn{1}{|c|}{6} & \multicolumn{1}{c|}{1.5*} & 66.6 & \multicolumn{1}{c|}{87} & \multicolumn{1}{c|}{86} & \multicolumn{1}{c|}{110} & \multicolumn{1}{c|}{110} & \multicolumn{1}{c|}{112} & 108 \\ \hline
+	\multicolumn{1}{|c|}{7} & \multicolumn{1}{c|}{1*} & 44.4 & \multicolumn{1}{c|}{58} & \multicolumn{1}{c|}{62} & \multicolumn{1}{c|}{63} & \multicolumn{1}{c|}{76} & \multicolumn{1}{c|}{88} & 98 \\ \hline
+	\multicolumn{1}{|c|}{8} & \multicolumn{1}{c|}{0.5*} & 22.2 & \multicolumn{1}{c|}{10.5} & \multicolumn{1}{c|}{19.7} & \multicolumn{1}{c|}{12} & \multicolumn{1}{c|}{14} & \multicolumn{1}{c|}{17} & 26 \\ \hline
+	\multicolumn{3}{|c|}{$slope(\mu) \times10^{3}$   from \href{graph:1}{Figure 3}} & \multicolumn{1}{c|}{1.55} & \multicolumn{1}{c|}{1.62} & \multicolumn{1}{c|}{1.69} & \multicolumn{1}{c|}{1.73} & \multicolumn{1}{c|}{1.87} & 1.78 \\ \hline
+	\multicolumn{3}{|c|}{Standard Deviation $\sigma$} & \multicolumn{1}{c|}{0.935} & \multicolumn{1}{c|}{1.782} & \multicolumn{1}{c|}{0.822} & \multicolumn{1}{c|}{1.037} & \multicolumn{1}{c|}{3.074} & 1.431 \\ \hline
+	\end{tabular}%
+	}
+	\label{tab:1}
+	\caption{$V_{DC}$ vs $V_{sig}$ for different frequencies}
+\end{table}
