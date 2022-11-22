@@ -25,6 +25,6 @@ We had to write Lab Reports for the 1st two and coding assignments for the last.
 4. [**Experiment 7:** Study of Electron Spin Resonance](./Modern_Physics/Expt_7/main.pdf)
 5. [**Experiment 6:** Study of Franck Hertz experiment](./Modern_Physics/Expt_6/main.pdf)
 6. [**Esperiment 5:** Study of Lock in amplifier](./Modern_Physics/Expt_5/main.pdf)
-7. 
+7. [**Experiment 1:** Millikan Oil Drop Experiment](./Modern_Physics/Expt_1/main.pdf)
 
 **Note:** I have a separate GitHub repository to keep the codes from the Computational Physics Lab: [PeithonKing/comp_phys_P346](https://github.com/PeithonKing/comp_phys_P346).
