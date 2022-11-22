@@ -1,42 +1,74 @@
 \section{Observations and Calculations}
-	\input{tables/table1.tex}
+	\subsection{Calibration of Lock-In Amplifier}
+		\input{tables/table1.tex}
 
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.4\textwidth]{graph_1.png}
-		\caption{\textbf{Calibration Graph}}
-		\label{graph:1}
-	\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.4\textwidth]{graph_1.png}
+			\caption{\textbf{Calibration Graph}}
+			\label{graph:1}
+		\end{figure}
 
-	Average value of slope ($\mu$) is:
+		Average value of slope ($\mu$) is:
 
+		$$\bar{\mu} = 1.71\times10^3$$
+		$$\delta\mu \text{(S.D)} = \sqrt{\frac{(\bar{\mu}-\mu_i)^2}{n-1}} = 114$$
 
+	\subsection{Mutual Induction with Lock-in Amplifier}
+		\input{tables/table2.tex}
 
+		From \hyperref[graph:3]{Figure 5}, the slope is given by:
 
-	% \subsection{Calibration of Lock-In Amplifier}
+		$$\beta = (0.336 \pm 0.026)\times10^{-3}$$
 
-	% 	$U_F = 10.0V$ \hspace{1cm} $U_E = 6.2V$ \hspace{1cm} $U_G = 5.3V$
+		From \hyperref[eqn:1]{Equation 1}, mutual inductance M is given by:
 
-	% 	\begin{figure}[H]
-	% 		\centering
-	% 		\includegraphics[width=0.37\textwidth]{graph_1.png}
-	% 		\caption{\textbf{Graph for First dataset}}
-	% 		\label{graph:1}
-	% 	\end{figure}
-		
-	% 	\input{tables/table1.tex}
+		$$M = \frac{R\beta}{2\pi\mu}$$
 
-	% \subsection{Dataset II:}
+		Putting the value of $R = 4.8k\ohm$ ans $\beta$, we get:
 
-	% 	$U_F = 9.2V$ \hspace{1cm} $U_E = 6.2V$ \hspace{1cm} $U_G = 6.5V$
+		$$M = 150\mu H$$
+		$$\frac{\delta M}{M} = \frac{\delta\beta}{\beta} H$$
+		$$\delta M = 11.61\mu H$$
 
-	% 	\input{tables/table2.tex}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.4\textwidth]{graph_2.png}
+			\caption{\textbf{Lock-in Amplifier with Mutual Inductor}}
+			\label{graph:2}
+		\end{figure}
 
-	% 	\begin{figure}[H]
-	% 		\centering
-	% 		\includegraphics[width=0.37\textwidth]{graph_2.png}
-	% 		\caption{\textbf{Graph for Second dataset}}
-	% 		\label{graph:2}
-	% 	\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.4\textwidth]{graph_3.png}
+			\caption{\textbf{Frequency vs slope}}
+			\label{graph:3}
+		\end{figure}
+	
+	\subsection{Measurement of Low Resistance}
+		\input{tables/table3.tex}
 
-		% \input{tables/table2.tex}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.4\textwidth]{graph_4.png}
+			\caption{\textbf{Low Resistance Measurement}}
+			\label{graph:4}
+		\end{figure}
+
+		From \hyperref[graph:4]{Figure 6}, the average value of slope of the graph is:
+
+		$$\alpha = 0.312$$
+		$$\delta\alpha \text{(S.D)} = \sqrt{\frac{(\bar{\alpha}-\alpha_i)^2}{n-1}} = 2.161\times10^{-6}$$
+
+		From \hyperref[eqn:2]{Equation 2}, the resistance is given by:
+
+		$$r = \frac{R\alpha}{\mu} 
+			= \frac{4.8\times10^3\times0.312}{1.71\times10^3} 
+			\approx 2.81 \ohm$$
+
+		$$\frac{\delta r}{r} = \sqrt{
+			\left(\frac{\delta\alpha}{\alpha}\right)^2+
+			\left(\frac{\delta\mu}{\mu}\right)^2
+			} = 0.08$$
+
+		$$\delta r = 0.23\ohm$$
