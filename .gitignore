@@ -1,15 +1,6 @@
-*.aux
-*.bbl
-*.blg
-*.fdb_latexmk
-*.fls
-*.log
-*.lot
-*.out
-*.lof
-*.synctex.gz
-*.toc
 Arya
 l
 keep_up.py
 clean.py
+aux_files
+*-eps-converted-to.pdf
