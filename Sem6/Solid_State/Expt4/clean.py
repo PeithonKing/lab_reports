@@ -1,13 +1,12 @@
 import os
 
-# white_files = [
-#    
-# ]
+white_files = [
+    "main.pdf",
+]
 
 white_ext = [
     ".py",
     ".ipynb",
-    ".pdf",
     ".xlsx",
     ".csv",
     ".tex",
@@ -22,8 +21,8 @@ def keep(file):
         return True
     if sum(map(lambda x: file.endswith(x), white_ext)):
         return True
-    # if file in white_files:
-    #     return True
+    if file in white_files:
+        return True
     return False
 
 n = 0
