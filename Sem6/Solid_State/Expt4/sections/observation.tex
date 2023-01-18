@@ -1,70 +1,72 @@
-\section{\label{sec:level1}Observation and Analysis}
+\section{Observation \& Calculations}
     \subsection{Magnetoresistance}
     
         \subsubsection{I=198.5mV}
             The magnetoresistance data for $I=198.5mA$ is shown in \hyperref[tab:mag1]{Table 1} and the graph of $\frac{\Delta R}{R}$ vs $H$ is shown in \hyperref[fig:graph1]{Figure.1}. The graph of $\log (\frac{\Delta R}{R})$  vs $\log(H)$ is shown in \hyperref[fig:graph2]{Figure.2}.
-            \input{tables/table1.tex}
-            \begin{figure}[]
-                \centering
-                \includegraphics[width=0.95\columnwidth]{images/Graph1.eps}
-                \caption{$\frac{\Delta R}{R}$ vs $H$}
-                \label{fig:graph1}
-            \end{figure}
-            \begin{figure}[]
-                \centering
-                \includegraphics[width=0.95\columnwidth]{images/Graph2.eps}
-                \caption{$\log (\frac{\Delta R}{R})$  vs $\log(H)$}
-                \label{fig:graph2}
-            \end{figure}
 
 
         \subsubsection{I=101.0mA}
             The magnetoresistance data for $I=101.0mA$ is shown in \hyperref[tab:mag2]{Table 2} and the graph of $\frac{\Delta R}{R}$ vs $H$ is shown in \hyperref[fig:graph3]{Figure.3}. The graph of $\log(\frac{\Delta R}{R})$ vs $H$ is shown in \hyperref[fig:graph4]{Figure.4}.
-            \input{tables/table2.tex}
-            \begin{figure}[]
-                \centering
-                \includegraphics[width=0.95\columnwidth]{images/Graph3.eps}
-                \caption{$\frac{\Delta R}{R}$ vs $H$}
-                \label{fig:graph3}
-            \end{figure}
-
-            \begin{figure}[]
-                \centering
-                \includegraphics[width=0.95\columnwidth]{images/Graph4.eps}
-                \caption{$\log(\frac{\Delta R}{R})$ vs $H$}
-                \label{fig:graph4}
-            \end{figure}
 
     \subsection{Hall effect}
-        I=197.3mA
+        The Hall voltage data for $I=197.3mA$ is shown in \hyperref[tab:hall1]{Table 3} and the graph of $V_h$ vs $H$ is shown in \hyperref[fig:graph6]{Figure.5}. 
 
-        Room temperature=$25^{\circ}C$ 
-        
-        Thickness(z)=0.5mm
-        
-        \input{tables/table3.tex}
+        For the Hall effect experiment, we have:
+        \begin{itemize}
+            \item $I = 197.3mA$
+            \item Room temperature = $25^{\circ}C$
+            \item Thickness(z)=0.5mm
+        \end{itemize}
 
-        \begin{figure}[h!]
-        \centering
-        \includegraphics[width=0.95\columnwidth]{images/Graph6.eps}% Here is how to import EPS art
-        \caption{\label{fig:epsart} hall voltage vs H}
-        \end{figure}
+        from \hyperref[eqn:2]{equation 2}, we have\\
+        $$R = \frac{V_hz}{IH} = \frac{slope\times z}{I}$$
+        $\therefore$ hall coefficient:
+        \fbox{$R = -6.951 \times 10^{-12}\;\;ohm-cm /Gauss$}
 
-        
 
-        % from equation 2, we have\\
-        % \(R=$$\frac{V_h z}{IH}$$\)\\
-        % \(R=$$\frac{slope *z}{I}$$\) ,\\hall coefficient, 
-        % R=-6.951 x 10^{-1}^2 ohm-cm /Gauss
-        
-        % \subsubsection{Error analysis}
-        % we have, from equation 2, \\
-        % \(($$\frac{\Delta R}{R}$$)^2=($$\frac{\Delta slope}{slope}$$)^2 + ($$\frac{\Delta I }{I}$$)^2\)\\
-        % as z is error is not mentioned.
-        % thus\\
-        % \(\Delta R\)=+-0.45 x 10^-^1^2 ohm-cm/Gauss
 
-    \subsection{Data analysis}
-    We see that when the magnetic field strength increases, so does the magneto-resistance value. At low magnetic field intensities, the transition is gradual, but it speeds up as the strength rises. An increase in the Lorentz force on charge particles may be the cause. We can see that in the high magnetic field, Bismuth's resistance changes by 35 percent (i=198.5mA) and 25 percent (i=101mA). As the quantity of charge carriers diminishes, the change in magneto-resistance reduces along with it. Furthermore, as a result of a lack of charge carriers, we can see that the curve deviates from the predicted curve shape at low working current and saturates at high temperatures.
 
-    We can see that there is a 6 percent inaccuracy in the value of the Hall coefficient. The next data point's variation could be the result of equipment heating up from prolonged usage and changes in the ambient temperature. The residual magnetic field in coils at zero current (3 Gauss) and variations in operational current may also be contributing factors. The charge density in metals is large as one could anticipate given that $R_h = 1$.
+
+\input{tables/table1.tex}
+\begin{figure}[]
+    \centering
+    \includegraphics[width=0.95\columnwidth]{images/Graph1.eps}
+    \caption{$\frac{\Delta R}{R}$ vs $H$}
+    \label{fig:graph1}
+\end{figure}
+\begin{figure}[]
+    \centering
+    \includegraphics[width=0.95\columnwidth]{images/Graph2.eps}
+    \caption{$\log (\frac{\Delta R}{R})$  vs $\log(H)$}
+    \label{fig:graph2}
+\end{figure}
+
+
+
+
+\input{tables/table2.tex}
+\begin{figure}[]
+    \centering
+    \includegraphics[width=0.95\columnwidth]{images/Graph3.eps}
+    \caption{$\frac{\Delta R}{R}$ vs $H$}
+    \label{fig:graph3}
+\end{figure}
+
+\begin{figure}[]
+    \centering
+    \includegraphics[width=0.95\columnwidth]{images/Graph4.eps}
+    \caption{$\log(\frac{\Delta R}{R})$ vs $H$}
+    \label{fig:graph4}
+\end{figure}
+
+
+
+
+\input{tables/table3.tex}
+
+\begin{figure}[]
+    \centering
+    \includegraphics[width=0.95\columnwidth]{images/Graph6.eps}
+    \caption{hall voltage vs $H$}
+    \label{fig:graph6}
+\end{figure}

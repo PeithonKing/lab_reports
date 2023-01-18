@@ -15,22 +15,18 @@
 		\end{enumerate}
 
 	\subsection{Hall Effect}
-		The Hall effect is the production of a voltage across a conductor when an electric current is passed through it. The Hall voltage is proportional to the current density and the magnetic field perpendicular to the current. The Hall voltage is given by the formula:
+		This effect was discovered by Edwin Hall in 1879. This is the production of a voltage across a conductor when an electric current is passed through it in the presence of a magnetic field. This results in the separation of charge carriers into two regions, one with positive charge and the other with negative charge. This will result in an electric field perpendicular to both the current and the magnetic field (in the $\vec{H}\times\vec{I}$ direction). 
+
+		\begin{equation}
+			\vec{E_h} = R \vec{J}\times\vec{H}
+			\label{eqn:1}
+		\end{equation}
 		
-		$$V = E_yt = |v\times H|$$
+		where $E_h$ and $\vec{H}$ are the electric field and the magnetic fields, $\vec{J}$ is the current density and the proportionality constant $R$ is called the \textbf{Hall Coefficient}.
 
-		where $E_y$ and $H$ are the electric field and the magnetic fields, $t$ is the thickness of the sample, and $v$ is the drift velocity of the carriers.
+		Now, let us consider a bar of a semiconductor, having dimensions, x, y and z. Let $\vec{J}$ be directed along x and $\vec{H}$ along z, then  $E_h$ will be along y. Then we could write:
 
-		The Hall effect is a direct consequence of the Lorentz force on the charge carriers in a magnetic field. The Hall effect is a linear effect, meaning that the Hall voltage is proportional to the current density and the magnetic field perpendicular to the current. The Hall coefficient is the ratio of the Hall voltage to the product of the current density and the magnetic field perpendicular to the current. The Hall coefficient is a material property and is independent of the applied current density and the magnetic field. The Hall coefficient is a measure of the mobility of the charge carriers in the material. The Hall coefficient is given by the formula:
-		
-		$$R_H = \frac{V}{I\times B}$$
-
-		where $V$ is the Hall voltage, $I$ is the current density, and $B$ is the magnetic field perpendicular to the current.
-
-		The Hall effect is a linear effect, meaning that the Hall voltage is proportional to the current density and the magnetic field perpendicular to the current. The Hall coefficient is the ratio of the Hall voltage to the product of the current density and the magnetic field perpendicular to the current. The Hall coefficient is a material property and is independent of the applied current density and the magnetic field. The Hall coefficient is a measure of the mobility of the charge carriers in the material. The Hall coefficient is given by the formula:
-		
-		$$R_H = \frac{V}{I\times B}$$
-
-		where $V$ is the Hall voltage, $I$ is the current density, and $B$ is the magnetic field perpendicular to the current.
-
-		The Hall effect is a linear effect, meaning that the Hall voltage is proportional to the current density and the magnetic field perpendicular to the current. The Hall coefficient is the ratio of the Hall voltage to the product of the current density and the magnetic field perpendicular to the current. The Hall coefficient is a material property and is independent of the applied current density and the magnetic field. The Hall coefficient is a measure of the mobility of the charge carriers in the material. The Hall coefficient is given by the formula:
+		\begin{equation}
+			R = \frac{V_h/y}{JH} = \frac{V_h\times z}{IH}
+			\label{eqn:2}
+		\end{equation}
