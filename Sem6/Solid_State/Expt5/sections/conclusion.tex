@@ -1,2 +1,24 @@
 \section{Conclusion}
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit mollitia illo reiciendis, nam at blanditiis dolore repellat. Placeat nisi, neque odio, debitis et possimus quo obcaecati totam cupiditate omnis culpa labore aut dolor! Ratione minima optio excepturi architecto itaque sint perspiciatis quos, molestiae nobis, porro cumque dolorem harum necessitatibus temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit mollitia illo reiciendis, nam at blanditiis dolore repellat. Placeat nisi, neque odio, debitis et possimus quo obcaecati totam cupiditate omnis culpa labore aut dolor! Ratione minima optio excepturi architecto itaque sint perspiciatis quos, molestiae nobis, porro cumque dolorem harum necessitatibus temporibus!
+	\begin{itemize}
+		\item For monatomic case the threshold frequency is, $38.8kHz$ with a $13.8\%$ error.
+		\item For diatomic case the band gap lies between $26.968kHz$ and $40.668kHz$ with a $9.66\%$ and $8.83\%$ error respectively.
+		\item The cutoff frequency is the value at which the vibration's wavelength is in the order of the average internuclear distance.
+		\item In the monoatomic situation, 10 unit cells were employed, whereas in the diatomic example, 5 unit cells were used. To reproduce the lattice, the LC components should ideally be quite big. Furthermore, having a greater number of cells provides for a bigger cutoff wavelength since there are more resonant frequencies accessible before the resonant frequency hits the cutoff value, as indicated in the preceding paragraph.
+		\item We can also find the dispersion relation for a 2- d and 3-d lattice. Consider the monoatomic lattice with atoms in a membrane arranged in a two dimensional square lattice. The membrane is stretched such the equation of motion for the atoms is given as:
+		$$m\frac{d^2U_{n,m}}{dt^2} = f[(U_{n+1,m}+U_{n-1,m}-2U_{n,m})$$
+		$$+(U_{n,m+1}+U_{n,m-1}-2U_{n,m})]$$
+		where $U_{n,m}$ position, leading to $n\times m$ coupled differential equations. Since there are two possible motions, transverse and longitudinal, we get two lines on the frequency versus phase plot. This is due to the two nodes of vibration as shown in figure below. Similarly for the diatomic case case, we will get 4 lines, two each for acoustic and optical branch.
+		\item In terms of experiment findings, we discover that the phase difference caused in the signal by one unit cell is equal to $9^{\circ}$. The data on the oscilloscope accords with the result when we tested the signal for only one unit cell, as shown in the picture below. However, we know that the phase difference between the input and output signal in an ideal (resistance-less) LC circuit is $90^{\circ}$. The defects in the LC circuit due to the resistances present might explain this, as resonance corresponds to a 90 degree phase difference, resulting in a circle or oval picture on the oscilloscope for the X-Y mode. The oval form appears at higher frequencies, as the circuit's attenuation rises. The lattice's cutoff wavelength matches to the LC filter's bandwidth edge.
+	\end{itemize}
+
+	\subsection{Conclusion}
+		Hence the analogy between the Monoatomic, diatomic lattice and the corresponding LC circuits have been established with errors for the parameters being around $1 - 10\%$. The scope of errors and the necessary precautions include:
+
+		\begin{itemize}
+			\item The unstable value of the frequency on the oscilloscope. Although the values could be made static using the ”Stop” button, we still got around the 3-4 slightly different readings for the same value.
+			\item Experimenter's error in discerning the shape of the plot in the X-Y mode.
+			\item Small differences in the values of the circuit's capacitance and inductance when measured separately outside the circuit and jointly while inside the circuit.
+			\item Noise should be avoided by using suitable connections. We discovered that connecting the function generator and the oscilloscope input channel with the same wire on the breadboard might result in more noise entering into the circuit.
+		\end{itemize}
+
+	

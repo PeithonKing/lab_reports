@@ -41,6 +41,9 @@
 		This is the dispersion relation, with $k$ denoting the $\sfrac{wavenumber}{wavevector}$. The Brilluoin zone for the newest (the independent values of $k$, values for which are indentical to other zones in the lattice) is supplied by the sin term as:
 
 		$$\frac{-\pi}{a}\leq k \leq \frac{\pi}{a}$$
+		$$\nu_{max} = \frac{1}{\pi}\sqrt{\frac{f}{m}}$$
+
+	\subsection{Electrical Analogue of Monoatomic Lattice Vibrations}
 
 		The electronic circuit that is an equivalent for these monoatomic vibration is that on an LC low pass filter as shown in figure, the output voltage of which is measured around the capacitor.
 
@@ -48,4 +51,78 @@
 
 		$$C\frac{d^2V_n}{dt^2} = \frac{1}{L}(V_{n+1} - 2V_n + V_{n-1})$$
 
-		where capacitance $C$ is equivalent to the mass, inductance $L$ to $\sfrac{1}{force constant}$, and $V_i$ is the voltage across the $i^{th}$ capacitor. Similar solution leads us to
+		where capacitance $C$ is equivalent to the mass, inductance $L$ to $\sfrac{1}{force constant}$, and $V_i$ is the voltage across the $i^{th}$ capacitor. Similar solution leads us to the equations of 		the dispersion equation and the cut off frequency which is equivalent to substituting the corresponding values of their electrical analogue.
+
+		
+		$$\omega = \sqrt{\frac{4}{LC}}\abs{\sin\theta}$$
+		\begin{equation}
+			v_{max} = \frac{1}{\pi\sqrt{LC}}
+			\label{eqn:2}
+		\end{equation}
+
+		Where $\theta$ is the phase change introduced by the ach of the filter. By measuring the phase difference between the input and output voltages of the circuit as the function of frequency, the dispersion relation may be verified.
+
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.9\columnwidth]{images/circ1.png}
+			\caption{Monatomic lattice Analogous Circuit}
+			\label{fig:circ1}
+		\end{figure}
+
+	\subsection{Diatomic Lattice Vibrations}
+		For the diatomic case, the model (shown in \hyperref[fig:theory2]{Figure 2}) is changed ever so slightly. Here we have atoms of alternating masses $m$ and $M$ aligned in a row with lattice parameter $a$, and force constant $f$. The design is illustrated in \hyperref[fig:theory3]{Figure 3}.
+
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.9\columnwidth]{images/theory3.png}
+			\caption{Diatomic lattice}
+			\label{fig:theory3}
+		\end{figure}
+
+		Thus the coupled differential equations for the $n^{th}$ atom are given as:
+
+		\begin{equation}
+			m \frac{d^2U_n}{dt^2} = f(U_{n+1} - 2U_n + U_{n-1})
+			\label{eqn:3}
+		\end{equation}
+
+		\begin{equation}
+			M \frac{d^2U_{n+1}}{dt^2} = f(U_{n+2} - 2U_{n+1} + U_{n})
+			\label{eqn:4}
+		\end{equation}
+
+		Solving the \hyperref[eqn:3]{Equation 3} and \hyperref[eqn:4]{Equation 4} we obtain:
+
+		$$\omega = f\left(\frac{1}{m}+\frac{1}{M}\right)\pm f\sqrt{\left(\frac{1}{m}+\frac{1}{M}\right)^2 - 4 \frac{\sin^2ka}{mM}} $$
+
+		As seen in the image above, the lower curve is known as the acoustic branch, while the top curve is known as the optical branch. The optical branch starts at $k = 0$ and ends at $\omega = 0$. The frequency then rises in a linear way as $k$ grows. This is why this branch is known as acoustic: it relates to elastic waves or sound at lower frequencies. Near the cut off frequency, this curve eventually saturates at the boundary of the Brillouin zone. At $k = 0$, the optical branch has a nonzero frequency. It has a higher frequency and is created as a result of vibrations caused by electromagnetic waves; the frequency is in the infrared region.
+
+		For acoustic brach at $k = \omega = 0$, the relation between the amplitude of oscillation of the two particles is given as $A_1 = A_2 \cdot n$. Therefore the molecule oscillates as a rigid body for the acoustic mode. For the optical vibrations, it yeilds the relation $mA_1 + MA_2 = 0$. This implies that the optical oscillation takes place in such a way that the center of mass of a molecule remains fixed.
+
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.9\columnwidth]{images/theory4.png}
+		\end{figure}
+
+		The electronic analogue for the circuit is given as shown with one unit cell comprising of two capacitors of capacitance $C$ and $C_1$ which acts as a band stop filter, where the gap is dependent on the $\frac{C}{C_1} \leftrightarrow \frac{m}{M}$. The analogous dispersion relation is given as:
+
+		$$\omega = \frac{1}{L}\left(\frac{1}{C}+\frac{1}{C_1}\right)\pm \frac{1}{L}\sqrt{\left(\frac{1}{C}+\frac{1}{C_1}\right)^2 - 4 \frac{\sin^2\theta}{CC_1}}$$
+
+		On putting $k = \pm\pi$, we can obtain the range of the band gap, which lies between:
+
+		\begin{equation}
+			\nu_{upperbound} = \frac{1}{2\pi\sqrt{LC}}
+			\label{eqn:5}
+		\end{equation}
+
+		\begin{equation}
+			\nu_{lowerbound} = \frac{1}{2\pi\sqrt{LC_1}}
+			\label{eqn:6}
+		\end{equation}
+
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.9\columnwidth]{images/circ2.png}
+			\caption{Diatomic lattice Analogous Circuit}
+			\label{fig:circ2}
+		\end{figure}

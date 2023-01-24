@@ -1,2 +1,50 @@
 \section{Theory}
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit mollitia illo reiciendis, nam at blanditiis dolore repellat. Placeat nisi, neque odio, debitis et possimus quo obcaecati totam cupiditate omnis culpa labore aut dolor! Ratione minima optio excepturi architecto itaque sint perspiciatis quos, molestiae nobis, porro cumque dolorem harum necessitatibus temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit mollitia illo reiciendis, nam at blanditiis dolore repellat. Placeat nisi, neque odio, debitis et possimus quo obcaecati totam cupiditate omnis culpa labore aut dolor! Ratione minima optio excepturi architecto itaque sint perspiciatis quos, molestiae nobis, porro cumque dolorem harum necessitatibus temporibus!
+
+	\subsection{Gamma spectroscopy:}
+		Gamma spectroscopy studies the energy spectrum  of gamma-ray sources. Gamma rays produced by radioactive sources are of various energies and intensities and can interact with matter in several ways. Three significant ways are:
+
+		\begin{enumerate}
+			\item \textbf{Photoelectric (up to several hundred keV):} A photoelectric effect occurs when a low-energy gamma photon interacts with a substance. After interacting with the photon, the electron is expelled with an energy equal to the initial photon energy minus the electron's binding energy. This is an advantageous procedure for spectroscopy because it produces an output pulse in a detector that is proportionate to the gamma-ray energy, as all of the gamma-ray energy is delivered to the detector. This results in a distinctive full-energy peak in the spectrum, which may be used to identify the radioactive substance.
+
+			\indent The photo-electron is most likely to emerge from the K shell at typical gamma-ray energy, with typical binding energies ranging from a few keV for low-Z materials to tens of keV for materials with larger atomic numbers. The atom must recoil in this process to conserve momentum, but its recoil energy is relatively modest and is frequently ignored. If mono-energetic gamma rays are present, the total electron kinetic energy equals the incident gamma-ray energy. The differential distribution of electron kinetic energy for a sequence of photoelectric absorption events would be a simple delta function under these conditions. The single peak arises at the entire electron energy, which corresponds to the incoming gamma ray energy. For non-monoenergetic rays, multiple Gaussian peaks are observed.
+		
+			\item \textbf{2.Pair production predominates(above 5-10 MeV)} Pair formation is a major phenomenon at energies above 2.5 MeV and can occur when the gamma-ray energy is larger than 1.022 MeV. The process generates a positron and electron pair, which slows down due to scattering interactions in materials. The incoming gamma-ray photon is converted into electron and positron kinetic energy during the process:
+
+			$$E_{e-} + E_{e+} = h - 2m_0c^2$$
+
+			For typical energies, electron and positron travel a few millimeters at most before losing all their kinetic energy to the absorbing medium.  When the positron comes to rest it annihilates with an electron producing a pair of 511 keV gamma rays that are emitted back-to-back.
+
+			The probability of pair production is 0 up to the energy threshold of twice the electron mass (1.022 MeV/c2) and it increases with energy up to 100 MeV where it becomes constant.
+		
+			\item \textbf{3.Compton scattering} In the Compton effect, the gamma ray scatters from an electron, transferring an amount of energy that depends upon the angle of scatter.
+
+			$$E^{'} = \frac{E}{1+\frac{E(1-\cos\theta)}{mc^2}}$$
+
+			here $E^{'}$ is the scattered energy of the gamma-ray,	E is the incident gamma-ray energy, $\theta$ is the angle of scatterring, the term $m_0c^2$ is the electron's rest mass, equal to $511 keV$. The energy given to the electron is: $E_e=E-E^{'}$. The maximum energy given to an electron in Compton scattering occurs for a scattering angle of 180$^{\circ}$. These impacts will be especially pronounced for low-incident gamma-ray energy. They entail smoothing off the increase in the continuum towards its top extreme and adding a limited slope to the Compton edge's abrupt drop. These effects are frequently obscured by the detector's finite energy resolution, but they can be seen in spectra from detectors with high inherent resolution.
+		
+		\end{enumerate}
+
+	\subsection{Scintillation Detector}
+		It is made up of a Sodium Iodide crystal that is optically connected to a photomultiplier. There are three connections available: UHF, circular I/O, or Minihex \& BNC. The detector's high voltage (operating voltage) is supplied by the HV module and attached to the UHF connection. The Minihex 5 pin I/O connection is used to deliver low voltages from the Minibin power supply to the pre-amplifier. A BNC cable connects the detector output to the linear amplifier input. A NUCLEONIX scintillation detector or its equivalent can be linked to the NUCLEONIX Gamma Ray Spectrometer electrical unit.
+
+		The spectrometer's resolution is determined by the statistical detection procedure. The detector's energy changes unleash the amount of photons that reach the cathode, as well as a variable number of photoelectrons. The total number of electrons reaching the photomultiplier's anode is proportional to the detector's energy expenditure and is determined by the inter-dynode voltage. The resolution of the detector is defined as the whole width at half maximum of the photopeak spectrum and is independent of the linear amplifier gain.
+	\subsection{Mass absorption coefficient}
+		We know that gamma rays interact with matter. The total mass absorption coefficient can be measured from Lambert's law. the decrease in intensity of radiation as it passes through the absorber is given by:
+		$$I=I_0e^{-mx}$$
+		where \\
+		I = intensity after absorption\\
+		$I_0$ = intensity before absorption\\
+		m = mass absorption coefficient\\
+		x = density thickness in $g/cm^3$
+
+		Density thickness is the product of material density times thickness in cm. the half-value layer(HLV) is defined as the density thickness of the absorbing material at which intensity is reduced to half of the original value.
+		
+	\subsection{Materials required}
+
+		\begin{enumerate}
+			\item SCA setup
+			\item MCA-setup
+			\item source ( Cs-137,Na-22,Ba-133,Co-60)
+			\item Aluminium blocks
+			\item oscilloscope
+		\end{enumerate}
