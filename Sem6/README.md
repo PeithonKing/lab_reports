@@ -9,10 +9,11 @@ We had to write Lab Reports for the experiments in these courses. The reports we
 
 ## Nuclear Physics Lab
 
-1. [**Experiment 4:**](./)
+1. [**Experiment 4:** Study of Gamma Ray Spectroscopy by SCA and MCA](./Nuclear_Physics/Expt3/main.pdf)
 2. 
 
 ## Solid State Physics Lab
 
 1. [**Experiment 4:** Studying Magnetoresistance And Hall Effect Of Bismuth](./Solid_State/Expt4/main.pdf)
-2. 
+2. [**Experiment 5:** Study Of Lattice Vibrations Using Analogous Electronic Circuits](./Solid_State/Expt5/main.pdf)
+3. 

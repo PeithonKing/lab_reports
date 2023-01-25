@@ -1,0 +1,50 @@
+\section{MCA}
+	\subsection{Study of Cs-137 spectrum and calculation of FWHM and resolution.}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\columnwidth]{images/Cs.PNG}
+			\caption{Cs-137 spectrum}
+			\label{fig:cs}
+		\end{figure}
+		Table 6
+		\input{tables/cstable.tex}
+		from \hyperref[tab:cs]{Table 6} we have FWHM = $46.8672$
+
+		Resolution is defined as the ratio of FWHM and peak channel.
+
+		$$\fbox{resolution=7.21\%}$$
+	\subsection{Energy calibration of gamma-ray spectrometer with energies of different Gamma Sources}
+		Three different sources are placed in front of detector at once and spectrum is analysed to obtain the calibration curve.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\columnwidth]{images/3mat.PNG}
+			\caption{Ba-133, Cs-137 and Co-60 spectrum}
+			\label{fig:3mat}
+		\end{figure}
+		Table 7\\
+		\input{tables/3togethertable.tex}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\columnwidth]{images/graph7.eps}
+			\caption{Energy calibration curve}
+		\end{figure}
+	\subsection{Find of energy of Na-22 source}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\columnwidth]{images/na.PNG}
+			\caption{Na-22 spectrum}
+		\end{figure}
+		\input{tables/Natable.tex}
+		From 8 and the energy calibration curve, we find that Na-22 has peak energies at 500KeV(ch-223),680 keV(ch-290), 1220KeV(Ch-554).
+	\subsection{Mass absorption coefficient of Al}
+		For 662 keV gamma rays, the mass absorption coefficient of Al is measured by placing aluminum blocks of different thicknesses between the detector and the source.\\
+		\input{tables/Altable.tex}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\columnwidth]{images/Graph6.eps}
+			\caption{Absorption curve}
+		\end{figure}
+		From the graph Observed value of HVL (thickness at which counts are reduced to half) is 0.4cm.\\
+		Density thickness=\(0.4\times 2.7gm/cm^3 =1.08gm/cm^2\)\\
+		the mass absorption coefficient,\\
+		m=\(\frac{0.693}{1.08} =0.641gm/cm^2\)
