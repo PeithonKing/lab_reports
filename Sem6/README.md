@@ -9,8 +9,9 @@ We had to write Lab Reports for the experiments in these courses. The reports we
 
 ## Nuclear Physics Lab
 
-1. [**Experiment 4:** Study of Gamma Ray Spectroscopy by SCA and MCA](./Nuclear_Physics/Expt3/main.pdf)
-2. 
+1. [**Experiment 3:** Study of Gamma Ray Spectroscopy by SCA and MCA](./Nuclear_Physics/Expt3/main.pdf)
+2. [**Experiment 4:** Study of Gamma-Gamma Coincidence using Na-22](./Nuclear_Physics/Expt4/main.pdf)
+3. 
 
 ## Solid State Physics Lab
 
