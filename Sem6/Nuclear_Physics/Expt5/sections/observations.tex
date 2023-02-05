@@ -1,0 +1,42 @@
+\section{Observations and Calculations}
+	\subsection{Recording the scattering rate\\as function of the angle}
+
+		Our experimentally observed data for measuring the counts and hence the decay rate for different angles is shown in \hyperref[tab:1]{Table 1}. The graph for the same is shown in \hyperref[graph:1]{Figure 4}.
+
+		\input{tables/table1.tex}
+		\begin{figure}[h]
+			\centering
+			\label{graph:1}
+			\includegraphics[width=0.8\columnwidth]{images/graph1.png}
+			\caption{N vs $\theta$ graph for \hyperref[tab:1]{Table 1}}
+		\end{figure}
+
+		In \hyperref[graph:1]{Figure 4} we have fitted the curve with the function:
+		$$y = \frac{A}{\sin^4\frac{x-B}{2}}$$
+
+		where $A$ and $B$ are the constants to be determined, $x$ is the angle $(\theta)$ and $y$ is the counts per second.
+
+		From \hyperref[graph:1]{the graph} we got the values of the constants as:
+
+		$$A = 0.000109843 = 1.098\times10^{-4}\text{ per second}$$
+		$$B = -0.00126324 = 1.263\times10^{-3}\text{ degree}$$
+	
+	\subsection{Determining the atomic number of Al}
+
+		Our experimentally observed data for measuring the counts and hence the decay rate for different materials keeping all other conditions constant is shown in \hyperref[tab:2]{Table 2}.
+
+		\input{tables/table2.tex}
+
+		Now, we know that:
+		\begin{itemize}
+			\item $Z_{Au}$ = 79
+			\item We used equal thickness foils. So, $d_{Au}$ = $d_{Al}$.
+			\item $N_{Au} = 0.48cps$ 
+			\item $N_{Al} = 0.01333cps$.
+		\end{itemize}
+
+		from \hyperref[eq:2]{Equation 2} we get the value of $Z_{Al}$ as:
+
+		$$Z_{Al} = 79\sqrt{\frac{0.01333}{0.48}}$$
+
+		$$\fbox{Z = 13.167}$$
