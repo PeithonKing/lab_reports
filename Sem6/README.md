@@ -12,9 +12,11 @@ We had to write Lab Reports for the experiments in these courses. The reports we
 1. [**Experiment 3:** Study of Gamma Ray Spectroscopy by SCA and MCA](./Nuclear_Physics/Expt3/main.pdf)
 2. [**Experiment 4:** Study of Gamma-Gamma Coincidence using Na-22](./Nuclear_Physics/Expt4/main.pdf) 
 3. [**Experiment 5:** Study of Rutherford Scattering](./Nuclear_Physics/Expt5/main.pdf)
+4. 
 
 ## Solid State Physics Lab
 
 1. [**Experiment 4:** Studying Magnetoresistance And Hall Effect Of Bismuth](./Solid_State/Expt4/main.pdf)
 2. [**Experiment 5:** Study Of Lattice Vibrations Using Analogous Electronic Circuits](./Solid_State/Expt5/main.pdf)
-3. 
+3. [**Experiment 6:** Study of phase transition in BaTiO3](./Solid_State/Expt6/main.pdf)
+4. 
