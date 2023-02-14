@@ -12,7 +12,8 @@ We had to write Lab Reports for the experiments in these courses. The reports we
 1. [**Experiment 3:** Study of Gamma Ray Spectroscopy by SCA and MCA](./Nuclear_Physics/Expt3/main.pdf)
 2. [**Experiment 4:** Study of Gamma-Gamma Coincidence using Na-22](./Nuclear_Physics/Expt4/main.pdf) 
 3. [**Experiment 5:** Study of Rutherford Scattering](./Nuclear_Physics/Expt5/main.pdf)
-4. 
+4. [**Experiment 6:** ADC-DAC Circuit](./Nuclear_Physics/Expt6/main.pdf)
+5. 
 
 ## Solid State Physics Lab
 

@@ -1,0 +1,66 @@
+\section{Observations and Calculations}
+	\subsection{ 4 bit R/2R ladder DAC using 741 op-amp  }
+		We constructed  4 bit R/2R ladder DAC circuit using IC741 op-amps, with a constant power supply of 5.16V corresponding to 1 bit and 0V corresponding to 0 bit. In the \hyperref[tab:1]{Table 1}, we can see that observed values are very close to the theoretical value.
+
+		\input{tables/table1.tex}
+
+	\subsection{Analog to Digital Converter}
+		\subsubsection{working of comparator}
+			We used three out of four comparators available in LM339 and verified it's working for a 5.2V constant power supply.
+			\input{tables/table2.tex}
+
+			\subsubsection{Construction of an ADC circuit to convert 2-bit digital input to analog output}
+				Using LM339 comparator and 74147 priority encoder, we constructed the 2-bit digital to the analog circuit as shown in figure 2. From \hyperref[tab:2]{Table 2} and the figures below, we can verify it's working.
+
+				\input{tables/table3.tex}
+				\begin{figure}[H]
+					\centering
+					\label{photo:1}
+					\includegraphics[width=0.6\columnwidth]{images/_00.png}
+					\caption{circuit output for 0 to 1.3 V}
+				\end{figure}
+				\begin{figure}[H]
+					\centering
+					\label{photo:2}
+					\includegraphics[width=0.6\columnwidth]{images/_16.png}
+					\caption{circuit output for 1.3 to 2.6 V}
+				\end{figure}
+				\begin{figure}[H]
+					\centering
+					\label{photo:3}
+					\includegraphics[width=0.6\columnwidth]{images/_26.png}
+					\caption{circuit output for 2.6 to 3.9 V}
+				\end{figure}
+				\begin{figure}[H]
+					\centering
+					\label{photo:4}
+					\includegraphics[width=0.6\columnwidth]{images/_41.png}
+					\caption{circuit output for 3.9 to 5.2V}
+				\end{figure}
+
+	\subsection{Conversion of binary display to decimal display}
+		\begin{figure}[H]
+			\centering
+			\label{photo:5}
+			\includegraphics[width=0.6\columnwidth]{images/_0.png}
+			\caption{ decimal display output for 0 to 1.3V}
+		\end{figure}
+
+		\begin{figure}[H]
+			\centering
+			\label{photo:6}
+			\includegraphics[width=0.6\columnwidth]{images/_1.png}
+			\caption{decimal display output for 1.3 to 2.6 V}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\label{photo:7}
+			\includegraphics[width=0.6\columnwidth]{images/_2.png}
+			\caption{decimal display output for 2.6 to 3.9 V}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\label{photo:8}
+			\includegraphics[width=0.6\columnwidth]{images/_3.png}
+			\caption{decimal display output for 3.9 to 5.2V}
+		\end{figure}
