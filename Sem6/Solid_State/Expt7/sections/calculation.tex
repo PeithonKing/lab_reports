@@ -1,2 +1,31 @@
-\section{Calculation}
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit mollitia illo reiciendis, nam at blanditiis dolore repellat. Placeat nisi, neque odio, debitis et possimus quo obcaecati totam cupiditate omnis culpa labore aut dolor! Ratione minima optio excepturi architecto itaque sint perspiciatis quos, molestiae nobis, porro cumque dolorem harum necessitatibus temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit mollitia illo reiciendis, nam at blanditiis dolore repellat. Placeat nisi, neque odio, debitis et possimus quo obcaecati totam cupiditate omnis culpa labore aut dolor! Ratione minima optio excepturi architecto itaque sint perspiciatis quos, molestiae nobis, porro cumque dolorem harum necessitatibus temporibus!
+\section{Calculation \& Error Ananlysis}
+	The no load voltage (VOC), the short circuit current (ISC) and the maximum power output $P_{max}$ and the corresponding error in its value $(\delta P)$ for each filter in each case (Lamp and Sun) are given in the \hyperref[tab:3]{Table 3}. From \hyperref[eq:1]{Equation 1} and our fitting function used in graph, we find the equation for the maximum for power. It is given for the point on the I-V characteristic curve, where the slope is equal to tan $135^\circ = -1$.
+
+	Differentiating \hyperref[eq:2]{Equation 2} with respect to $V$ and equating it to $-1$ (for maximum power), we get:
+
+	$$\frac{dI}{dV} = ABe^{BV} = -1$$
+	$$\therefore V = \frac{-1}{B}\ln\left(-AB\right)$$
+
+	Finding corresponding value of I and calculatind $P_{max} = VI$, we get:
+
+	\begin{equation}
+		P_{max} = \left(\frac{C}{B} - \frac{1}{B^2}\right)\ln\left(-AB\right)
+		\label{eq:3}
+	\end{equation}
+
+	The error in the value of $P_{max}$ is calculated in this way:
+
+	Let $M = \left(\frac{C}{B} - \frac{1}{B^2}\right)$ \& $N = \ln\left(-AB\right)$.
+
+	$$\therefore \left(\frac{dM}{M}\right)^2 = 3\times\left(\frac{dB}{B}\right)^2 + \times\left(\frac{dC}{C}\right)^2$$
+
+	$$\therefore \left(\frac{dN}{N}\right)^2 = \frac{1}{(\ln(-AB))^2}\left(\left(\frac{dA}{A}\right)^2 + \left(\frac{dB}{B}\right)^2\right)$$
+
+	\begin{equation}
+		\frac{\delta P_{max}}{P_{max}} = \sqrt{\left(\frac{dM}{M}\right)^2 + \left(\frac{dN}{N}\right)^2}
+		\label{eq:4}
+	\end{equation}
+
+	Now, using equation \hyperref[eq:3]{Equation 3} and \hyperref[eq:4]{Equation 4}, we get make the table \hyperref[tab:3]{Table 3}.
+
+	\input{tables/table3.tex}
