@@ -1,2 +1,18 @@
 \section{Error}
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit mollitia illo reiciendis, nam at blanditiis dolore repellat. Placeat nisi, neque odio, debitis et possimus quo obcaecati totam cupiditate omnis culpa labore aut dolor! Ratione minima optio excepturi architecto itaque sint perspiciatis quos, molestiae nobis, porro cumque dolorem harum necessitatibus temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit mollitia illo reiciendis, nam at blanditiis dolore repellat. Placeat nisi, neque odio, debitis et possimus quo obcaecati totam cupiditate omnis culpa labore aut dolor! Ratione minima optio excepturi architecto itaque sint perspiciatis quos, molestiae nobis, porro cumque dolorem harum necessitatibus temporibus!
+	The expected slope is $1$, but the slope of the graph is $1.000195$. So the formula for error will be:
+
+	$$\Delta s = \frac{\abs{observed - expected}}{expected} = \frac{\abs{1.000195 - 1}}{1} = 0.000195$$
+
+	This comes out to be around $0.0195\%$ error. This is a very small error, and can be attributed to the fact that the resistors used in the circuit are not very accurate. The error can be reduced by using more accurate resistors.
+
+	The sampling process was performed at various clock frequencies to determine the optimal frequency for sampling the signal. The oscilloscope was used to obtain readings for each frequency tested. The results were consistent with the Nyquist theorem: as the sampling frequency approaches the frequency of the input signal (100Hz), the resulting signal becomes more aliased.
+
+	\subsection{Suspected Sources of Error}
+
+		\begin{enumerate}
+			\item The circuit diagram must be followed correctly, and the junctions should be represented using bold points to make proper connections.
+			\item The connections between ADC and DAC on the circuit diagram are incorrect. The input pins of DAC should be flipped, i.e., output pin 18 of ADC should be connected to A1 of DAC, and pin 11 to A8.
+			\item All circuit components should be checked for defects before conducting the experiment.
+			\item Resistances should be added before each LED to prevent them from fusing.
+			\item The biasing voltage must not exceed 15V, and the input voltage for the digital signal must not exceed 5V.
+		\end{enumerate}
