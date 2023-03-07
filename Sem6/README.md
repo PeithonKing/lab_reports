@@ -22,4 +22,5 @@ We had to write Lab Reports for the experiments in these courses. The reports we
 2. [**Experiment 5:** Study Of Lattice Vibrations Using Analogous Electronic Circuits](./Solid_State/Expt5/main.pdf)
 3. [**Experiment 6:** Study of phase transition in BaTiO3](./Solid_State/Expt6/main.pdf)
 4. [**Experiment 7:** Study of the I-V Characteristics of a Solar Cell](./Solid_State/Expt7/main.pdf)
-5. 
+5. [**Experiment 8:** Study of the C-V Characteristics of a Solar Cell](./Solid_State/Expt8/main.pdf)
+6. 
