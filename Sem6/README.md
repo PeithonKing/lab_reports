@@ -14,7 +14,8 @@ We had to write Lab Reports for the experiments in these courses. The reports we
 3. [**Experiment 5:** Study of Rutherford Scattering](./Nuclear_Physics/Expt5/main.pdf)
 4. [**Experiment 6:** ADC-DAC Circuit](./Nuclear_Physics/Expt6/main.pdf)
 5. [**Experiment 7:** ADC-DAC 2](./Nuclear_Physics/Expt7/main.pdf)
-6. 
+6. [**Experiment 8:** Compton Scattering](./Nuclear_Physics/Expt8/main.pdf)
+7. 
 
 ## Solid State Physics Lab
 
