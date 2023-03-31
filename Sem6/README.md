@@ -24,4 +24,6 @@ We had to write Lab Reports for the experiments in these courses. The reports we
 3. [**Experiment 6:** Study of phase transition in BaTiO3](./Solid_State/Expt6/main.pdf)
 4. [**Experiment 7:** Study of the I-V Characteristics of a Solar Cell](./Solid_State/Expt7/main.pdf)
 5. [**Experiment 8:** Study of the C-V Characteristics of a Solar Cell](./Solid_State/Expt8/main.pdf)
-6. 
+6. <!-- [**Experiment 9:** SeeLab 1](./Solid_State/Expt9/main.pdf) -->
+7. [**Experiment 10:** SeeLab 2](./Solid_State/Expt10/main.pdf)
+8. 
