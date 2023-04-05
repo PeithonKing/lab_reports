@@ -1,0 +1,76 @@
+\section{Observations \& Calculations}
+	\subsection{GM characteristics}
+		A gamma source $(Cs^{137})$ was used and the voltage was varied to get the data in \hyperref[tab:1]{Table 1}. From the data, the curve was plotted as shown in \hyperref[graph:1]{Figure 3}.
+
+		\input{tables/table1.tex}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=\columnwidth]{images/g1.png}
+			\caption{Graph of GM characteristics}
+			\label{graph:1}
+		\end{figure}
+
+		From the graph we can see:
+		\begin{enumerate}
+			\item Lower threshol volatge = $390 V$
+			\item Upper threshold voltage = $630 V$
+			\item Plateu length = $630 - 390 = 240 V$
+			\item Counts at lower threshold voltage = $4910$
+			\item Slope = 1.99
+			\item Plateau Slope percent $(s) = \frac{slope}{N}*10000 = \frac{1.99}{4910}*10000 = 4.073\%$
+			\item Operating Volatage = $\frac{600+360}{2} = 510 V$
+		\end{enumerate}
+
+	\subsection{Inverse Square Law}
+		\input{tables/table2.tex}
+		\input{tables/table3.tex}
+
+		We can clearly see in \hyperref{tab:3}{Table 3} that the value of $Rd^2$ is almost constant. Thus, we can say that the inverse square law is valid for the given data.
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=\columnwidth]{images/g2.png}
+			\caption{$\log(d)$ vs $\log(R)$ graph}
+			\label{graph:2}
+		\end{figure}
+
+		From the graph in \hyperref[graph:2]{Figure 4}, we can see that the data points lie on a straight line. Also the slope of the line is $-2$. Thus, we can say that the inverse square law is valid for the given data.
+
+	\subsection{Efficiency}
+		\input{tables/table4.tex}
+		Given data:
+		\begin{itemize}
+			\item $d = 1.5cm$
+			\item Activity of $Cs^{137}$ = $86 kBq$ (as of May 2016)
+			\item Activity of $Tl^{204}$ = $10 kBq$ (as of May 2016)
+			\item $\therefore$ Activity of $Cs^{137} \approx 73447 Bq$ now (half life $\approx$ 30 years)
+			\item $\therefore$ Activity of $Cs^{137} \approx  2847 Bq$ now (half life $\approx$ 3.77 years)
+		\end{itemize}
+
+		Therefore using \hyperref[eq:2]{Equation 2} we get:
+		\begin{itemize}
+			\item $DPS_{Cs} = \frac{73447 \times (1.5)^2}{1600} = 351.56$
+			\item $DPS_{Tl} = \frac{2847 \times (1.5)^2}{1600} = 120.94$
+		\end{itemize}
+
+		From \hyperref[tab:4]{Table 4}, we can see that:
+		\begin{itemize}
+			\item $CPS_{Cs} = 111.178$
+			\item $CPS_{Tl} =  37.067$
+		\end{itemize}
+
+		Thus calculating the efficiency using \hyperref[eq:1]{Equation 1}
+		\begin{itemize}
+			\item Eff$_{Cs} = \frac{CPS_{Cs}}{DPS_{Cs}}*100 = \frac{111.178}{351.56}*100 = 31.62\%$
+			\item Eff$_{Tl} = \frac{CPS_{Tl}}{DPS_{Tl}}*100 = \frac{37.067}{120.94}*100 = 30.65\%$
+		\end{itemize}
+
+		We can see that for both the sources, the efficiency is almost the same. Thus, we can say that the efficiency is independent of the source and is a property of the detector.
+
+
+
+	\subsection{Counting Statistics}
+
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali 
+
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, vitae ali 
