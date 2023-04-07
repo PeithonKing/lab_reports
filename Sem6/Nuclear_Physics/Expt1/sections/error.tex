@@ -1,2 +1,23 @@
-\section{Error}
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit mollitia illo reiciendis, nam at blanditiis dolore repellat. Placeat nisi, neque odio, debitis et possimus quo obcaecati totam cupiditate omnis culpa labore aut dolor! Ratione minima optio excepturi architecto itaque sint perspiciatis quos, molestiae nobis, porro cumque dolorem harum necessitatibus temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit mollitia illo reiciendis, nam at blanditiis dolore repellat. Placeat nisi, neque odio, debitis et possimus quo obcaecati totam cupiditate omnis culpa labore aut dolor! Ratione minima optio excepturi architecto itaque sint perspiciatis quos, molestiae nobis, porro cumque dolorem harum necessitatibus temporibus!
+\section{Error Analysis}
+	We know that for a given relation:
+	
+	$$A = \frac{\prod n_i}{\prod d_i}$$
+	
+	For monitoring how the value of $A$ changes with \textbf{small} change in $n$ and $d$, we differentiate the equation and then divide it by the same equation. By doing this we get:
+	
+	$$\frac{dA}{A} = \sum\left(\frac{dn_i}{n_i}\right) - \sum\left(\frac{dd_i}{d_i}\right)$$
+
+	So, for \textbf{Plateu Slope percent} in GM Characteristics we get:
+
+	Error part in plateau slope percentage = $\frac{dslope}{slope} - \frac{dN}{N} = \frac{0.31}{1.99} - \frac{167}{4910} = 0.122$
+	
+	$\therefore$ plateu slope percentage = $(4.073 \pm 0.49)\%$
+
+	For efficiency calculation, DPS was calculated from given value which were provided without any error information. So, we can assume that the error in DPS is negligible. Now, the standard deviation of the CPS in Cs is $0.194$ and in Tl is $0.023$. So, the value of effieciency with error bar is:
+
+	\begin{itemize}
+		\item Eff$_{Cs} = 31.62 \pm 0.549 \%$
+		\item Eff$_{Tl} = 30.65 \pm 0.019 \%$
+	\end{itemize}
+
+	The error for counting statistics need not be calculated again because it had already been shown in \hyperref[graph:4]{Figure 6}
