@@ -20,7 +20,7 @@ We had to write Lab Reports for the experiments in these courses. The reports we
 
 ## Solid State Physics Lab
 
-1. <!-- [**Experiment 1:** Measurement of resistivity and determination of band gap using Four-Probe method](./Solid_State/Expt1/main.pdf) -->
+1. [**Experiment 1:** Measurement of resistivity and determination of band gap using Four-Probe method](./Solid_State/Expt1/main.pdf)
 2. <!-- [**Experiment 2:** Bandgap measurement by Uv-Vis Spectroscopy and analysis of band structure](./Solid_State/Expt2/main.pdf) -->
 3. <!-- [**Experiment 3:** Hall effect of semiconductors](./Solid_State/Expt3/main.pdf) -->
 4. [**Experiment 4:** Studying Magnetoresistance And Hall Effect Of Bismuth](./Solid_State/Expt4/main.pdf)
@@ -28,5 +28,5 @@ We had to write Lab Reports for the experiments in these courses. The reports we
 6. [**Experiment 6:** Study of phase transition in BaTiO3](./Solid_State/Expt6/main.pdf)
 7. [**Experiment 7:** Study of the I-V Characteristics of a Solar Cell](./Solid_State/Expt7/main.pdf)
 8. [**Experiment 8:** Study of the C-V Characteristics of a Solar Cell](./Solid_State/Expt8/main.pdf)
-9. <!-- [**Experiment 9:** SeeLab 1](./Solid_State/Expt9/main.pdf) -->
+9. [**Experiment 9:** SeeLab 1](./Solid_State/Expt9/main.pdf)
 10. [**Experiment 10:** SeeLab 2](./Solid_State/Expt10/main.pdf)

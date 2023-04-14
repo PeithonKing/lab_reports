@@ -1,0 +1,77 @@
+\section{Observations \& Calculation}
+
+	All the graphs \hyperref[graph:1]{Figure 3}, \hyperref[graph:2]{Figure 4} and \hyperref[graph:3]{Figure 5} have been fitted in a straight line following the equation $y = mx+c$ where $m$ and $c$ are the parameters.
+	\subsection{Germanium Sample}
+
+		The Thickness of the provided Germanium sample was $0.5mm$. We plotted the potential difference measured with the current flowing through the sample as shown in \hyperref[tab:1]{Table 1} in \hyperref[graph:1]{Figure 3}. From the graph we can see that the slope of the curve is $slope = \sfrac{V}{I} = R = 87.94\pm0.05\ohm$.
+
+		\input{tables/table1.tex}
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.8\columnwidth]{images/g1.png}
+			\caption{V vs I graph for Germanium sample}
+			\label{graph:1}
+		\end{figure}
+
+		So using \hyperref[eq:2]{Equation 2} we get the resistivity of the sample as:
+
+		$$\rho_{Ge} = \frac{\pi}{\ln(2)}\times0.05\times87.94 = 19.93\;\ohm cm$$
+
+	\subsection{Aluminium Sample}
+
+		The Thickness of the provided Aluminium sample was $0.018mm$. We plotted the potential difference measured with the current flowing through the sample as shown in \hyperref[tab:2]{Table 2} in \hyperref[graph:2]{Figure 4}. From the graph we can see that the slope of the curve is $slope = \sfrac{V}{I} = R = 356.61\pm1.99\mu\ohm$.
+
+		\input{tables/table2.tex}
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.8\columnwidth]{images/g2.png}
+			\caption{V vs I graph for Aluminium sample}
+			\label{graph:2}
+		\end{figure}
+
+		So using \hyperref[eq:2]{Equation 2} we get the resistivity of the sample as:
+
+		$$\rho_{Al} = \frac{\pi}{\ln(2)}\times0.0018\times356.61\times10^{-6} = 2.91\times10^{-6}\;\ohm cm$$
+
+	\subsection{Silicon Sample}
+
+		The Thickness of the provided Silicon sample was $0.5mm$. We plotted the potential difference measured with the current flowing through the sample as shown in \hyperref[tab:3]{Table 3} in \hyperref[graph:3]{Figure 5}. From the graph we can see that the slope of the curve is $slope = \sfrac{V}{I} = R = 105.06\pm0.71\ohm$.
+
+		\input{tables/table3.tex}
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.8\columnwidth]{images/g3.png}
+			\caption{V vs I graph for Aluminium sample}
+			\label{graph:3}
+		\end{figure}
+
+		So using \hyperref[eq:2]{Equation 2} we get the resistivity of the sample as:
+
+		$$\rho_{Al} = \frac{\pi}{\ln(2)}\times0.05\times105.06 = 23.8\;\ohm cm$$
+
+	\subsection{Germanium with Varying Temperature}
+
+		We measured the potential difference between the two probes of the germanium sample at different temperatures. The current was kept constant at $0.5mA$. The data is shown in \hyperref[tab:4]{Table 4}. From the data, we plotted the graph between $\log\rho$ and $1/T$ as shown in \hyperref[graph:4]{Figure 6}.
+
+		\input{tables/table4.tex}
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.8\columnwidth]{images/g4.png}
+			\caption{V vs I graph for Germanium sample}
+			\label{graph:4}
+		\end{figure}
+
+		From \hyperref[graph:4]{Figure 6} we can see that the slope of the straight line is $4084.56\pm42.89\ohm$. Using \hyperref[eq:3]{Equation 3} we get the band gap of the germanium sample as:
+
+		\begin{equation}
+			\begin{split}
+				E_g &= 2\times k_B\times slope\\
+				&= 2\times8.6\times10^{-5}\times 4084.56 eV\\
+				&= 0.703 eV
+			\end{split}
+		\end{equation}
+		
