@@ -1,0 +1,58 @@
+\section{Theory}
+
+	Measurements of conductivity in semiconductors are insufficient for distinguishing between the presence of one or both types of carriers. In contrast, Hall effect measurements, a fundamental method for determining mobilities, can be utilized to obtain this information.
+
+	Consider a simple crystal, as depicted in Figure \ref{th:1}, with contacts 1, 2, and 3 perpendicular to a magnetic field $H$ in the $z$-direction. When a voltage $V_x$ is applied between contacts 1 and 2 to induce current flow through the crystal in the $x$-direction, a voltage will arise across contacts 3 and 4 in the $y$-direction. Assuming all carriers possess equal drift velocity, it is easy to compute this (Hall) voltage. To do so, we make two assumptions: (a) that there is only one kind of carrier present, and (b) that both types of carriers are present.
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\columnwidth]{images/h1.png}
+		\caption{Schematic arrangement for the measurement of the Hall Effect of a crystal.}
+		\label{th:1}
+	\end{figure}
+
+	\subsection{One type of carrier:}
+
+		The magnetic force on the carriers is $\Vec{F_m}=e\Vec{E_m}=e(\Vec{v}\times\Vec{H})$ and is compensated by the force $\Vec{F_h}$ due to the Hall fields $\Vec{E_h}$. The electric field $\Vec{E_m}$ is along the $y$-axis and is provided by $E_m = vH = \mu E_xH$, where the carrier mobility $\mu$ is determined by $v = E_x$, and $E_x$ is the applied electric field along the $x$-axis. This is because $v$ is along the $x$-axis, and $H$ is along the $z$-axis. $E_x = J_x$ describes the relationship between the electric field, current density, and conductivity. The Hall coefficient $R_H$ is given by:
+
+		\begin{equation}
+			\label{eq:1}
+			\abs{R_H}=\frac{E_m}{J_xH}=\frac{1}{ne}=\frac{V_y t}{I_xH}
+		\end{equation}
+
+		where $t$ is the thickness of the sample. Thus, for a fixed magnetic field and input current, the Hall voltage is proportional to $1/n$.
+
+	\subsection{Two Types of Carriers}
+		We observe that the Hall voltage for p-type carriers (holes) has the opposite sign from that for n-type carriers (electrons) for the same electric field $E_x$. Consequently, the sign of the Hall coefficient $R_H$ is also different for the two types of carriers. Both types of carriers experience a transverse motion due to the Hall field $E_y$, which fails to counteract the magnetic force acting on them. However, since no current flows through contacts 3, 4, and 5, the net transverse transfer of charge remains zero.
+
+		In the x-direction, we have:
+
+		\begin{equation}
+			e(v^+_xp-v^-_xn)=J_x,
+			\label{eq:x_direction}
+		\end{equation}
+
+		where $v^+_x$ has the opposite sign from $v^-_x$. The carrier mobility $\mu$ is always a positive number, and the total current density $\sigma$ is given by:
+		
+		\begin{equation}
+			e(\mu^+p+\mu^-n)=\sigma.
+			\label{eq:total_current_density}
+		\end{equation}
+
+		The velocity of carriers in the y-direction is defined as:
+		
+		\begin{equation}
+			v^-_y=\frac{F\tau}{2m^*},
+			\label{eq:y_direction}
+		\end{equation}
+
+		where $m^*$ is the effective mass of carriers, and $\tau$ is the mean time between collisions. The Hall coefficient is given by:
+		
+		\begin{equation}
+			R_H=\frac{E_H}{J_xH}=\frac{E_H}{\sigma E_xH}=\frac{(\mu^2_hp-\mu^2_en)}{e(\mu_hp+\mu_en)^2},
+			\label{eq:hall_coefficient}
+		\end{equation}
+
+		where $E_H$ is the Hall electric field, and $H$ is the magnetic field strength.
+
+		Since the mobilities $\mu_h$ and $\mu_e$ are functions of temperature, the Hall coefficient is also a function of temperature and may become zero and even change sign. In general, $\mu_e > \mu_h$, so Hall coefficient inversion can only occur if $p > n$. Therefore, Hall coefficient inversion is characteristic of only p-type semiconductors. At the point of zero Hall coefficient, it is possible to determine the ratio of mobilities.

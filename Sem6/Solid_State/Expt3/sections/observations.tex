@@ -1,0 +1,74 @@
+\section{Observation and Calculation}
+
+	\subsection{Magnetic field calibration}
+
+		We used an electromagnet coil of 500 turns. Then we gradually increased the current in the coil and measured the magnetic field using a Hall probe. The data is shown in Table \ref{tab:1}. The graph of B vs I is shown in Fig \ref{graph:1}.
+
+		\input{tables/a1.tex}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.8\columnwidth]{images/cal.eps}
+			\caption{B vs I (coil current)}
+			\label{graph:1}
+		\end{figure}
+
+	\subsection{Constant temperature}
+		\subsubsection{Ge n-type}
+
+			\begin{itemize}
+				\item sample thickness = $t=0.5mm$
+				\item coil current = $I=3.21A$
+				\item $H=3277G$
+			\end{itemize}
+
+			We measured the Hall voltage at different probe current. The data is shown in Table \ref{tab:2}. The graph of Hall voltage vs probe current is shown in Fig \ref{graph:2}.
+
+			from Graph \ref{graph:2}, we have $slope=\sfrac{V_y}{I_x}=-19.8$. Thus, using Equation \ref{eq:1} $ R_H=-3.02 cm^3 coulomb^{-1}$
+
+			\input{tables/a2.tex}
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.9\columnwidth]{images/gen.eps}
+				\caption{Hall voltage vs. probe current for Ge n-type}
+				\label{graph:2}
+			\end{figure}
+
+
+		\subsubsection{Ge p-type}
+
+			\begin{itemize}
+				\item sample thickness = $t=0.5mm$
+				\item coil current = $I=3.21A$
+				\item $H=3277G$
+			\end{itemize}
+			
+			\input{tables/a3.tex}
+			\begin{figure}[h]
+				\centering
+				\includegraphics[width=0.9\columnwidth]{images/gep.eps}
+				\caption{Hall voltage vs probe current for Ge p-type}
+				\label{graph:3}
+			\end{figure}
+
+			We measured the Hall voltage at different probe current. The data is shown in Table \ref{tab:3}. The graph of Hall voltage vs probe current is shown in Fig \ref{graph:3}.
+
+			from Graph \ref{graph:3}, we have $slope=\sfrac{V_y}{I_x}=-13.24$. Thus, using Equation \ref{eq:1} $ R_H=2.02 cm^3 coulomb^{-1}$
+	\subsection{Temperature dependence of hall coefficient}
+		\begin{itemize}
+			\item sample thickness = $t=0.5mm$
+			\item coil current = $I=3.07A$
+			\item $H=2910G$
+			\item probe current = $4.0 mA$
+			\item Room temperature = $300K$
+		\end{itemize}
+
+		We measured the Hall voltage at different temperature. The data is shown in Table \ref{tab:4} and \ref{tab:5}. The graph of Hall coefficient vs temperature is shown in Fig \ref{graph}.
+
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.9\columnwidth]{images/rh.eps}
+			\caption{Hall coefficient vs. Temperature for Ge n-type}
+			\label{graph}
+		\end{figure}
+		\input{tables/t1.tex}
+		\input{tables/t2.tex}
